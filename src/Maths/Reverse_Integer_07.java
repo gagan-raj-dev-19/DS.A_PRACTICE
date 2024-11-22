@@ -27,7 +27,7 @@ class ReverseInteger {
 
     public static void main(String[] args) {
         ReverseInteger obj = new ReverseInteger();
-        int N = 1234; // Test case
+        int N = 1234; // Test cases
         System.out.println(obj.reverse(N));
     }
 }
