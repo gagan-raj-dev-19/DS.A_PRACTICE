@@ -1,6 +1,6 @@
 package Maths;
 
-class Solution {
+class AddStrings {
     public static String addStrings(String num1, String num2) {
         StringBuilder result = new StringBuilder();
         int i = num1.length() - 1;
