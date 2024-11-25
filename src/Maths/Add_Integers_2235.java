@@ -11,6 +11,12 @@ class AddInteger {
     }
 }
 /*
+simply we can return
+num1+num2 so avoids redundancy!
+
+
+*/
+/*
 
 Problem Statement
 Write a function that takes two integers as input and returns their sum. This is a basic problem that tests understanding of function implementation, parameter passing, and return values in Java.
