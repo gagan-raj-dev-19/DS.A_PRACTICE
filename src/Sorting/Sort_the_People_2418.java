@@ -1,5 +1,7 @@
 package Sorting;
 
+
+
 import java.util.Arrays;
 
 class SortThePeople {
@@ -27,17 +29,16 @@ class SortThePeople {
     public static void main(String[] args) {
         SortThePeople solution = new SortThePeople();
 
-        String[] names = {"Naruto","Sasuke","Itachi","Obito"};
-        int[] heights = {160,170,150,155};
-
         // Test input
-
+        String[] names = {"Naruto", "Sasuke", "Itachi", "Obito"};
+        int[] heights = {160, 170, 150, 155};
 
         // Get the sorted result
         String[] result = solution.sortPeople(names, heights);
 
         // Print the result
-        System.out.println(Arrays.toString(result)); // Output: [Mary, Emma, John]
+        System.out.println(Arrays.toString(result));
     }
 }
+
 
