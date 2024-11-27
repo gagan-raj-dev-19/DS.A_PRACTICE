@@ -46,5 +46,5 @@ Given a non-negative integer `num`, repeatedly add all its digits until the resu
 ### **Alternative Approach**
 
 If you don't use the mathematical formula, an iterative approach could sum the digits repeatedly until the number is a single digit. However, this approach is less efficient, as its time complexity depends on the number of digits in `num`.
-
+.
  */
