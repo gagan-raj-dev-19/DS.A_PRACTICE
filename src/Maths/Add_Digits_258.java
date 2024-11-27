@@ -41,7 +41,7 @@ Given a non-negative integer `num`, repeatedly add all its digits until the resu
 2. **Space Complexity**:
    - \(O(1)\): No additional data structures are used; the computation uses only a fixed amount of memory.
 
----
+
 
 ### **Alternative Approach**
 
