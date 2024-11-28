@@ -16,7 +16,7 @@ class AddDigits {
 
 /*
 **Problem Statement**
-Given a non-negative integer `num`, repeatedly add all its digits until the result has only one digit. Return that single-digit result.
+Given a non-negative integer `num`, repeatedly add all its digits until ->(the result has only one digit.) Return that single-digit result.
 
 
 
