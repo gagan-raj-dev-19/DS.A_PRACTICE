@@ -70,7 +70,7 @@ Given two non-negative integers `num1` and `num2` represented as strings, return
 
 **Complexity Analysis**
 - **Time Complexity**:
-  \(O(m \times n)\), where \(m\) and \(n\) are the lengths of `num1` and `num2`, respectively. Each digit in `num1` is multiplied with each digit in `num2`.
+  (O(m times n)), where \(m\) and \(n\) are the lengths of `num1` and `num2`, respectively. Each digit in `num1` is multiplied with each digit in `num2`.
 
 - **Space Complexity**:
   (O(m + n)), for the `result` array used to store intermediate calculations..
