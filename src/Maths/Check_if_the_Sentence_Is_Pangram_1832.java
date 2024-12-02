@@ -1,5 +1,21 @@
 package Maths;
+/*
+this solution is more efficient but both solution works fine.
 
+class Panagram{
+    public static boolean isPanagram(String sentence){
+        if (sentence.length() < 26)return false;
+        for (char ch ='a';ch<='z';ch++){
+            if (sentence.indexOf(ch)<0){
+                return false
+            }
+
+        }
+        return true;
+    }
+}
+
+ */
 import java.util.HashSet;
 
 class Pangram {
