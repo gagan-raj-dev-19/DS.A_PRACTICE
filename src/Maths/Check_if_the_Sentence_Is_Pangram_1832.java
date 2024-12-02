@@ -2,8 +2,8 @@ package Maths;
 /*
 this solution is more efficient but both solution works fine.
 
-class Panagram{
-    public static boolean isPanagram(String sentence){
+class Pangram{
+    public static boolean isPangram(String sentence){
         if (sentence.length() < 26)return false;
         for (char ch ='a';ch<='z';ch++){
             if (sentence.indexOf(ch)<0){
