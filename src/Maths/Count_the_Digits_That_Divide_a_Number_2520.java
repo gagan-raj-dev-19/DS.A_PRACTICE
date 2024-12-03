@@ -32,7 +32,7 @@ class Count_the_Digits_That_Divide_a_Number {
 Problem Statement:
 You are given a positive integer `num`. Your task is to count how many digits in `num` evenly divide the number itself. In other words, for each digit in the number, check if it is non-zero and if the number is divisible by that digit.
 
- Approach:
+ Approach :
 1. **Iterate over each digit**: Start by extracting each digit of the number using modulo (`%`) and integer division (`/`).
 
 2. **Check divisibility**: For each digit, check if it is non-zero and if `num % digit == 0`. This checks whether the number is divisible by the current digit.
