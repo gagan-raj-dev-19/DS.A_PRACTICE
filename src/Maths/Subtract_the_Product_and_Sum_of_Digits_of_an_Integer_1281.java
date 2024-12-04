@@ -64,5 +64,18 @@ Given an integer `n`, calculate the difference between the product of its digits
    - Only a fixed number of variables (`prod`, `sum`, `digit`) are used.
    - Thus, the space complexity is **O(1)**.
 
+**Example Walkthrough**:
+
+**Input**: `n = 234`
+**Digits**: `2, 3, 4`
+- Product (`prod`): `2 * 3 * 4 = 24`
+- Sum (`sum`): `2 + 3 + 4 = 9`
+- Difference: `24 - 9 = 15`
+
+**Output**: `15`
+
+---
+
+This solution is efficient and adheres to the problem constraints, providing both clarity and performance.
 
  */
