@@ -33,7 +33,7 @@ Given an integer `n`, calculate the difference between the product of its digits
 
 ---
 
-### **Approach**:
+ **Approach**:
 
 1. **Extract Digits**:
    - Use modulo operation (`n % 10`) to extract the last digit.
@@ -58,7 +58,7 @@ Given an integer `n`, calculate the difference between the product of its digits
 1. **Time Complexity**:
    - Extracting digits and performing arithmetic operations within a loop takes `O(d)` time, where `d` is the number of digits in `n`.
    - In the worst case, `d` is `5` (for the largest input, `100,000`).
-   - Thus, the time complexity is **O(log₁₀(n))**.
+   - Thus, the time complexity is O(log₁₀(n)).
 
 2. **Space Complexity**:
    - Only a fixed number of variables (`prod`, `sum`, `digit`) are used.
