@@ -74,8 +74,6 @@ Given an integer `n`, calculate the difference between the product of its digits
 
 **Output**: `15`
 
----
-
 This solution is efficient and adheres to the problem constraints, providing both clarity and performance.
 
  */
