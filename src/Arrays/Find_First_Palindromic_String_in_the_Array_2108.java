@@ -48,7 +48,7 @@ A **palindrome** is a string that reads the same backward as forward, e.g., "rad
    - If a palindrome is found, return it immediately.
    - If the loop completes without finding any palindrome, return `""`.
 
-#### **Optimizations**
+ **Optimizations**
 - As soon as a palindrome is found, exit early to minimize unnecessary computations.
 - Use a two-pointer technique in `isPalindrome` to compare characters efficiently.
 
