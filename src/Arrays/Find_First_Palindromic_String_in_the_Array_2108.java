@@ -52,7 +52,7 @@ A **palindrome** is a string that reads the same backward as forward, e.g., "rad
 - As soon as a palindrome is found, exit early to minimize unnecessary computations.
 - Use a two-pointer technique in `isPalindrome` to compare characters efficiently.
 
-* **Complexity Analysis**
+ **Complexity Analysis**
 
  **Time Complexity**
 - **Outer Loop:** Iterates through each word in the array → `O(n)` (where `n` is the number of words).
@@ -63,7 +63,7 @@ A **palindrome** is a string that reads the same backward as forward, e.g., "rad
   `O(n * m)`
   (where `n` is the number of words and `m` is the average length of the words).
 
-#### **Space Complexity**
+ **Space Complexity**
 - The algorithm uses a constant amount of extra space → **`O(1)`**.
 
 ---
