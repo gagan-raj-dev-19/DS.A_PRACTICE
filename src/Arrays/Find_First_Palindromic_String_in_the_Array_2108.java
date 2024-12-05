@@ -41,7 +41,7 @@ You are given an array of strings `words`. The task is to return the **first pal
 A **palindrome** is a string that reads the same backward as forward, e.g., "radar", "level".
 
 
-### **Approach**
+ **Approach**
 1. **Iterate through the Array:** Traverse each string in the array `words`.
 2. **Check for Palindrome:** For each string, use a helper function `isPalindrome` to determine if it is a palindrome.
 3. **Return the Result:**
