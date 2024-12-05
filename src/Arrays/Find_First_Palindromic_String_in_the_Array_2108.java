@@ -66,7 +66,7 @@ A **palindrome** is a string that reads the same backward as forward, e.g., "rad
  **Space Complexity**
 - The algorithm uses a constant amount of extra space → **`O(1)`**.
 
----
+
 
 ### **Explanation with Example**
 **Input:**
@@ -83,10 +83,5 @@ String[] words = {"abc", "car", "ada", "racecar", "cool"};
 ```java
 "ada"
 ```
-
----
-
-
-
 
  */
