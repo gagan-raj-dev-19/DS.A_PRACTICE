@@ -40,7 +40,6 @@ You are given an array of strings `words`. The task is to return the **first pal
 
 A **palindrome** is a string that reads the same backward as forward, e.g., "radar", "level".
 
----
 
 ### **Approach**
 1. **Iterate through the Array:** Traverse each string in the array `words`.
