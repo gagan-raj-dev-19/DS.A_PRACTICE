@@ -54,7 +54,7 @@ A **palindrome** is a string that reads the same backward as forward, e.g., "rad
 
 * **Complexity Analysis**
 
-#### **Time Complexity**
+ **Time Complexity**
 - **Outer Loop:** Iterates through each word in the array → `O(n)` (where `n` is the number of words).
 - **Inner Loop (isPalindrome):**
   - For a word of length `m`, the comparison loop runs at most `m/2` iterations.
