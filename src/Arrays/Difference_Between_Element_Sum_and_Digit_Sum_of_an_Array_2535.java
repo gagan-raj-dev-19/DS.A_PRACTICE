@@ -49,12 +49,12 @@ Finally, return the absolute difference between the two sums.
 4. **Compute Difference**: Return the absolute difference between `elementSum` and `digitSum`.
 
 Complexity Analysis
-1. **Time Complexity**:
+1. Time Complexity:
    - Iterating through the array takes \(O(n)\), where \(n\) is the number of elements in the array.
    - Calculating the digit sum for each number depends on the number of digits (\(d\)) in the number. For a single number, this takes \(O(d)\), and across the entire array, it sums to \(O(n \cdot d)\), where \(d\) is the average number of digits.
    - If the numbers are bounded (e.g., integers in the range [0, \(10^5\)]), \(d\) can be considered constant, making the time complexity effectively \(O(n)\).
 
-2. **Space Complexity**:
+2. Space Complexity:
    - The algorithm uses \(O(1)\) additional space since it only maintains scalar variables for computations.
 
 
