@@ -28,7 +28,7 @@ class SortedSquares {
 
     public static void main(String[] args) {
         SortedSquares obj = new SortedSquares();
-        int [] nums = {-7,-8,10,12};
+        int [] nums = {-7,10,12,-8};
         int[] result = obj.sortedSquares(nums);
         System.out.println(Arrays.toString(result));
     }
