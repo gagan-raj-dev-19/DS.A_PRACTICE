@@ -19,7 +19,7 @@ package String;
 
 
      public static void main(String[] args) {
-         String[] char1 = {"iam batman","iam ironman","i am gagan"};
+         String[] char1 = {"i am batman","i am ironman","i am gagan raj"};
          System.out.println(mostWordsFound(char1));
      }
 }
