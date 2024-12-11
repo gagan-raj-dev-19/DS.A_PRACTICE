@@ -29,7 +29,6 @@ class FindWordsContainingCharacter {
 Problem Statement:
 You are tasked to write a function that takes an array of words (strings) and a character. The function should return a list of indices of the words in the array that contain the specified character.
 
----
 
  Approach:
 
