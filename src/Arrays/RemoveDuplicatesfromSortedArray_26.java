@@ -1,5 +1,7 @@
 package Arrays;
 
+import java.util.Arrays;
+
 class RemoveDuplicatesFromSortedArray {
     public static int removeDuplicates(int[] nums){
         int i = 1;
@@ -14,7 +16,8 @@ class RemoveDuplicatesFromSortedArray {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,1,2,2,3,4,5,5};
+        int[] nums = {1,1,2,2,3,4,5,5,1,2};
+        Arrays.sort(nums);
         int result = removeDuplicates(nums);
         for (int i=0;i<result;i++){
             System.out.print(nums[i]+" ");
