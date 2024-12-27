@@ -21,7 +21,7 @@ class Solution {
 
     public static void main(String[] args) {
         int[] nums = {1,3,5,8};
-        int target = 9;
+        int target =2;
         int res= searchInsert(nums,target);
         System.out.println(res);
     }
