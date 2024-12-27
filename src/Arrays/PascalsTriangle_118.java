@@ -5,11 +5,7 @@ import java.util.List;
 
 public class PascalsTriangle_118 {
 
-    /**
-     * Generates the first numRows of Pascal's Triangle.
-     * @param numRows - the number of rows to generate
-     * @return a list of lists, where each inner list represents a row of Pascal's Triangle
-     */
+
     public static List<List<Integer>> pascalTriangle(int numRows) {
         List<List<Integer>> triangle = new ArrayList<>();
 
