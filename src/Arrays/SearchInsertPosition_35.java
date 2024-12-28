@@ -12,7 +12,7 @@ class Solution {
             } else if (nums[mid] < target) {
                 left= mid+1;
             }else {
-                right = mid+1;
+                right = mid-1;
             }
         }
         return left;
@@ -20,7 +20,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,3,5,8};
+        int[] nums = {1,3,5,8,2};
         int target =2;
         int res= searchInsert(nums,target);
         System.out.println(res);
