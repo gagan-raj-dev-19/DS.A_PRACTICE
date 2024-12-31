@@ -70,7 +70,7 @@ Complexity Analysis
    - Finding the pivot index requires another traversal: \(O(n)\).
    - **Total Time Complexity:** \(O(n)\).
 
-2. **Space Complexity:**
+2. Space Complexity:
    - The solution uses a constant amount of extra space: \(O(1)\).
 
 ---
