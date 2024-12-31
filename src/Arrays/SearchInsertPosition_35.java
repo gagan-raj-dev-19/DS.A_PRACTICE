@@ -1,6 +1,6 @@
 package Arrays;
 
-class Solution {
+class insertPos {
     public static int searchInsert(int[] nums, int target) {
         int left = 0;
         int right = nums.length-1;
@@ -21,7 +21,7 @@ class Solution {
 
     public static void main(String[] args) {
         int[] nums = {1,3,5,8,2};
-        int target =2;
+        int target =7;
         int res= searchInsert(nums,target);
         System.out.println(res);
     }
