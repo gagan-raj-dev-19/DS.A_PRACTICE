@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 
 public class FindtheMiddleIndexinArray_1991 {

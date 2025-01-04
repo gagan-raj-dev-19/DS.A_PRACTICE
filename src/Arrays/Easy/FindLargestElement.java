@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 public class FindLargestElement {
     public static int findLargest(int[] arr){

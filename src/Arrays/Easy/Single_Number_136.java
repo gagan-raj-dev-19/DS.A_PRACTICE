@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 public class Single_Number_136 {
     public static int singleNumber(int[] nums){

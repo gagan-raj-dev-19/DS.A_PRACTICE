@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 class RichestCustomerWealth {
     public int maximumWealth(int[][] accounts) {

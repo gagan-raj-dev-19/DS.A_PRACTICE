@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 class DifferenceBetweenElementSumAndDigitSum {
     public int differenceOfSum(int[] nums) {

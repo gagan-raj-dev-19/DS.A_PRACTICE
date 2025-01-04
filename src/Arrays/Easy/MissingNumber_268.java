@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 class MissingNumber {
 public static int missingNum(int[] nums){
     int res = nums.length;

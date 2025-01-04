@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 class NumberofEmployeesWhoMettheTarget {
     public static int numberOfEmployeesWhoMetTarget(int[] hours, int target) {

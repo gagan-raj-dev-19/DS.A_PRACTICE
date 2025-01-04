@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 public class CheckifArrayIsSortedandRotated_1752 {
     public static boolean check(int[] nums){

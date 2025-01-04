@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 class FirstPalindrome {
     public String firstPalindrome(String[] words) {

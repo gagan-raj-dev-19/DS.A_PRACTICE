@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 class InsertPos {
     public static int searchInsert(int[] nums, int target) {

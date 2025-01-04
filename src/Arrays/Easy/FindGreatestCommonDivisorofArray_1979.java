@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 
 public class FindGreatestCommonDivisorofArray_1979 {

@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Easy;
 
 public class MaxConsecutiveOnes_485 {
     public static int maxConsecutives(int[] nums){
