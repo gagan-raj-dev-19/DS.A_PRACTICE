@@ -57,6 +57,6 @@ If you find this journey inspiring, **star** ⭐ it to join me in celebrating sm
 
 ### 💭 Final Note
 > "DSA is not just a skill; it's a mindset. Keep pushing, keep solving, and most importantly, enjoy the process!"
-
+> "Thank you, Striver, GeeksforGeeks, and the coding community—you inspire and motivate me!"
 
 
