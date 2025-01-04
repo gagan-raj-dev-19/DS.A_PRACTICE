@@ -3,35 +3,42 @@ package Arrays.Medium;
 import java.util.Arrays;
 
 class SortColors {
-     public static void sortColors(int[] nums){
-         int red = 0;
-         int white = 0;
-         int blue = nums.length-1;
-         while(white <= blue){
-             if (nums[white] == 0){
-                 int temp = nums[white];
-                 nums[white]=nums[red];
-                 nums[red]=temp;
-                 white++;
-                 red++;
-             } else if (nums[white]==1) {
-                 white++;
-             }else {
-                 int temp = nums[white];
-                 nums[white]=nums[blue];
-                 nums[blue]=temp;
 
-                 blue--;
-             }
-         }
-     }
+    public static void sortColors(int[] nums) {
+        int red = 0;              // Pointer for the end of the 0s (red region)
+        int white = 0;            // Pointer for the current element (white region)
+        int blue = nums.length - 1; // Pointer for the start of the 2s (blue region)
 
-     public static void main(String[] args) {
-         int[] nums = {2,0,1,0,1,2};
-          sortColors(nums);
-         System.out.println(Arrays.toString(nums));
-     }
+        // Iterate until the white pointer crosses the blue pointer
+        while (white <= blue) {
+            if (nums[white] == 0) {
+                // If the current element is 0, swap it with the element at the red pointer
+                int temp = nums[white];
+                nums[white] = nums[red];
+                nums[red] = temp;
+                white++; // Move the white pointer forward
+                red++;   // Expand the red region
+            } else if (nums[white] == 1) {
+                // If the current element is 1, just move the white pointer forward
+                white++;
+            } else {
+                // If the current element is 2, swap it with the element at the blue pointer
+                int temp = nums[white];
+                nums[white] = nums[blue];
+                nums[blue] = temp;
+                blue--;  // Shrink the blue region
+                // Do not increment white here because the swapped value needs evaluation
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {2, 0, 1, 0, 1, 2}; // Input array with 0s, 1s, and 2s
+        sortColors(nums);                // Sort the array
+        System.out.println(Arrays.toString(nums)); // Output the sorted array
+    }
 }
+
 
 /*
 
