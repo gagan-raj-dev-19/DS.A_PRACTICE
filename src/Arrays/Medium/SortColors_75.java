@@ -52,7 +52,7 @@ Your solution uses a **three-pointer approach**:
 **Code Explanation:**
 Your Java implementation effectively handles the in-place sorting using the three-pointer approach.
 
-### Key Points in Code:
+ Key Points in Code:
 - **Swapping Logic:** Temporary variables ensure proper value exchange without data loss.
 - **Boundary Conditions:** The `while` loop terminates when the `white` pointer surpasses the `blue` pointer, ensuring all elements are correctly placed.
 - **Output:** `System.out.println(Arrays.toString(nums))` prints the sorted array to verify correctness.
@@ -72,8 +72,5 @@ Your implementation is already optimal for this problem. If desired, you can imp
 
 **Example Output:**
 Given the input `{2, 0, 1, 0, 1, 2}`, the program prints `[0, 0, 1, 1, 2, 2]`, confirming the correctness of the algorithm.
-
-
-
 
  */
