@@ -48,7 +48,7 @@ Return the rearranged array.
 
 ---
 
-### **Approach**
+ **Approach**
 1. **Initialization**: Create an empty result array `res` of the same size as `nums`. Use two pointers:
    - `pos` to place positive integers (starting at index `0`).
    - `neg` to place negative integers (starting at index `1`).
@@ -68,7 +68,7 @@ Return the rearranged array.
    - The result array `res` takes **O(n)** additional space.
    - Overall: **O(n)**.
 
----
+
 
 ### **Example**
 Input:
