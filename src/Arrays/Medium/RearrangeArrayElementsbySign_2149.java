@@ -46,7 +46,6 @@ Given an array `nums` of even length containing both positive and negative integ
 
 Return the rearranged array.
 
----
 
  **Approach**
 1. **Initialization**: Create an empty result array `res` of the same size as `nums`. Use two pointers:
