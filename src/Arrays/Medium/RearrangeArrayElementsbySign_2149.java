@@ -69,7 +69,7 @@ Return the rearranged array.
 
 
 
-### **Example**
+**Example**
 Input:
 `nums = {3, 1, -2, -5, 2, -4}`
 
