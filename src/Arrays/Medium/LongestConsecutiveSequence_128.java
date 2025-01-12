@@ -77,7 +77,7 @@ class LongestConsecutiveSequence {
    - The `HashSet` stores all unique elements of the array, requiring **O(n)** space.
    - Other variables use constant space: **O(1)**.
 
----
+
 
  **Explanation of Test Case**
  Input:
