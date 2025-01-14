@@ -81,7 +81,7 @@ class LongestConsecutiveSequence {
 
  **Explanation of Test Case**
  Input:
-`nums = {2, 3, 1, 4, 100, 200}`
+nums = {2, 3, 1, 4, 100, 200}
  Output:
 - Longest consecutive sequence is `[1, 2, 3, 4]`, length = 4.
 - The code correctly outputs `4`.
