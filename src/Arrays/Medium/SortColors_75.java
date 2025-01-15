@@ -70,12 +70,12 @@ Your Java implementation effectively handles the in-place sorting using the thre
 - **Space Complexity:** \(O(1)\)
   - The sorting is performed in-place, requiring no extra space.
 
----
+
 
 **Optimizations:**
 Your implementation is already optimal for this problem. If desired, you can improve readability by extracting the swapping logic into a helper method.
 
----
+
 
 **Example Output:**
 Given the input `{2, 0, 1, 0, 1, 2}`, the program prints `[0, 0, 1, 1, 2, 2]`, confirming the correctness of the algorithm.
