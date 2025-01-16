@@ -42,21 +42,21 @@ class SortColors {
 
 /*
 
-**Problem Statement:**
+Problem Statement:
 The task is to sort an array containing only the integers `0`, `1`, and `2` in-place, so that integers of the same value are adjacent, with the order `0, 1, 2`. This problem is also known as the **Dutch National Flag Problem**, originally proposed by Edsger Dijkstra.
 
-**Approach:**
+Approach:
 Your solution uses a **three-pointer approach**:
-1. **Pointers**:
+1. Pointers
    - `red`: Marks the end of the `0` (red) region.
    - `white`: Iterates through the array, determining the current element's region.
    - `blue`: Marks the beginning of the `2` (blue) region.
-2. **Process**:
+2. Process
    - If the current element is `0` (red region), swap it with the element at the `red` pointer and increment both `red` and `white`.
    - If the current element is `1` (white region), just move `white` forward.
    - If the current element is `2` (blue region), swap it with the element at the `blue` pointer and decrement `blue`. Do not increment `white` in this case, as the swapped value at `white` needs further evaluation.
 
-**Code Explanation:**
+Code Explanation:
 Your Java implementation effectively handles the in-place sorting using the three-pointer approach.
 
  Key Points in Code:
@@ -65,9 +65,9 @@ Your Java implementation effectively handles the in-place sorting using the thre
 - **Output:** `System.out.println(Arrays.toString(nums))` prints the sorted array to verify correctness.
 
 **Complexity Analysis:**
-- **Time Complexity:** \(O(n)\)
+- **Time Complexity:** (O(n))
   - Each element is processed at most once by the `white` pointer.
-- **Space Complexity:** \(O(1)\)
+- **Space Complexity:** (O(1))
   - The sorting is performed in-place, requiring no extra space.
 
 
