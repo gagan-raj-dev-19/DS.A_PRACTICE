@@ -1,6 +1,5 @@
 package Arrays.Medium;
 
-import java.util.Arrays;
 
 class RotateImage {
     public static void rotate(int[][] matrix){
