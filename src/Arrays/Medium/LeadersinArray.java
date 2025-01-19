@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 class Leaders {
 
-    public static int[] printLeaders(int[] arr, int n) {
+    public static int[] printLeaders(int[] arr) {
+        int n = arr.length;
         // Array to store leaders
         int[] leaders = new int[n];
         int leaderCount = 0;
@@ -12,6 +13,7 @@ class Leaders {
         // Last element of an array is always a leader.
         int max = arr[n - 1];
         leaders[leaderCount++] = max;
+
 
         // Traverse the array from the second-last element to the beginning.
         for (int i = n - 2; i >= 0; i--) {
@@ -38,11 +40,11 @@ class Leaders {
 
     public static void main(String args[]) {
         // Array Initialization
-        int n = 6;
+
         int arr[] = {10, 22, 12, 3, 0, 6};
 
         // Get leaders without using ArrayList
-        int[] leaders = printLeaders(arr, n);
+        int[] leaders = printLeaders(arr);
 
         // Print leaders
         for (int leader : leaders) {
