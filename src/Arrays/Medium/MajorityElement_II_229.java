@@ -101,9 +101,9 @@ Since we are looking for elements appearing more than `n/3` times, there can be 
  **Complexity Analysis:**
 
  **Time Complexity:**
-- **O(n):** We iterate over the array twice (once for candidate selection, once for counting), leading to linear time complexity.
+- O(n): We iterate over the array twice (once for candidate selection, once for counting), leading to linear time complexity.
 
- **Space Complexity:**
+ Space Complexity:
 - **O(1):** We only use a few extra variables (constant space) to store the candidates and their counts.
 
 
