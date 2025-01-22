@@ -61,7 +61,7 @@ class ThreeSum {
 Given an integer array `nums`, return all the unique triplets `[nums[i], nums[j], nums[k]]` such that:
 
 - i != j, i != k, and j != k
-- \( nums[i] + nums[j] + nums[k] = 0 \)
+- ( nums[i] + nums[j] + nums[k] = 0 )
 
 The solution set must **not contain duplicate** triplets.
 
