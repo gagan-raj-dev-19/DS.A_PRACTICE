@@ -22,3 +22,5 @@ package Arrays.Medium;
          System.out.println(maxProd(arr));
      }
 }
+
+// optimised code pending
