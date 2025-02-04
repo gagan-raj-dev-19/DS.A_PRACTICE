@@ -23,7 +23,10 @@ class MergeSort{
         for (int j=0;j<n2;j++){
             rightArray[j]= arr[mid+1+j];
         }
-        int i=0; int j = 0; int k = left;
+        int i=0;
+        int j = 0;
+        int k = left;
+
         while (i<n1 && j<n2){
             if (leftArray[i]<=rightArray[j]){
                 arr[k] = leftArray[i];
@@ -53,3 +56,9 @@ class MergeSort{
     }
 
 }
+
+
+/*
+
+MERGESORT
+ */
