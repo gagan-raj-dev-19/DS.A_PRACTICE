@@ -1,4 +1,4 @@
-package Strings;
+package Strings.Easy;
 
  class Maximum_Number_of_Words_Found_in_Sentences {
 
