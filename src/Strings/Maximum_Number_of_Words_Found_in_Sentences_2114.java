@@ -1,4 +1,4 @@
-package String;
+package Strings;
 
  class Maximum_Number_of_Words_Found_in_Sentences {
 
@@ -44,7 +44,7 @@ You are given an array of strings, where each string represents a sentence. The 
 
 
 
- **Complexity Analysis**
+ Complexity Analysis
 1. **Time Complexity**:
    - Let `n` be the total number of sentences and `m` be the average length of each sentence.
    - For each sentence, we iterate through all characters, leading to a complexity of \( O(n \times m) \).
@@ -69,7 +69,7 @@ class Solution {
 }
 
 
-**Complexity**:
+Complexity
 - **Time**: Still \( O(n \times m) \), but with extra overhead for splitting.
 - **Space**: \( O(m) \), for the temporary array created by `split`.
 
