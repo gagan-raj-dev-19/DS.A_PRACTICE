@@ -28,7 +28,6 @@ package Strings.Easy;
 **Problem Statement**
 You are given an array of strings, where each string represents a sentence. The task is to find the maximum number of words present in a single sentence. Words in a sentence are separated by spaces.
 
----
 
  **Approach**
 1. **Thought Process**:
@@ -70,8 +69,8 @@ class Solution {
 
 
 Complexity
-- **Time**: Still \( O(n \times m) \), but with extra overhead for splitting.
-- **Space**: \( O(m) \), for the temporary array created by `split`.
+**Time**: Still \( O(n \times m) \), but with extra overhead for splitting.
+**Space**: \( O(m) \), for the temporary array created by `split`.
 
 
  */
