@@ -29,7 +29,7 @@ package Strings.Easy;
 You are given an array of strings, where each string represents a sentence. The task is to find the maximum number of words present in a single sentence. Words in a sentence are separated by spaces.
 
 
- **Approach**
+ *Approach*
 1. **Thought Process**:
    - Iterate through each sentence in the array.
    - For each sentence, count the number of spaces (`' '`) and add one to get the word count since words are separated by spaces.
