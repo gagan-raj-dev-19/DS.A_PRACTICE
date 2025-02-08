@@ -52,7 +52,7 @@ You are given an array of strings, where each string represents a sentence. The 
 
 
 
- **Optimized Approach (Optional)**
+ optional  Optimized Approach
 Using the `split(" ")` method:
 
 java
