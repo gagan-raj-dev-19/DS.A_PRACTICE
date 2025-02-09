@@ -1,14 +1,14 @@
-package Arrays.Hard;
+//package Arrays.Hard;
+//
+//
+//class ReversePairs {
+//    public static int reversePairs(int[] nums){
+//
+//
+//    }
+//}
 
-
-class ReversePairs {
-    public static int reversePairs(int[] nums){
-
-
-    }
-}
-
-
+// Add solution for REVERSE PAIRS - LeetCode - 493.
 
 
 
