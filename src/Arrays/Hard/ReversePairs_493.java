@@ -10,7 +10,6 @@
 
 // Add solution for REVERSE PAIRS - LeetCode - 493.
 
-// pending
 
 // bruteforce code
 // O(n^2) and O(1)  TLE -> LeetCode
