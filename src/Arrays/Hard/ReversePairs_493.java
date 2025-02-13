@@ -12,7 +12,8 @@
 
 // pending
 
-// bruteforce O(n^2) and O(1)  TLE -> LeetCode
+// bruteforce code
+// O(n^2) and O(1)  TLE -> LeetCode
 // class ReversePairs {
 //     public static int reversePairs(int[] nums){
 //         int n = nums.length;
