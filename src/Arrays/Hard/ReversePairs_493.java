@@ -25,4 +25,4 @@ package Arrays.Hard;
      }
 }
 
-// pending
+// pending optimised code!
