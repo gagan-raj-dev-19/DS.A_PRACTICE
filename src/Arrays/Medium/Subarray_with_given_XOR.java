@@ -9,8 +9,8 @@ public class Subarray_with_given_XOR {
         Map<Integer,Integer> map = new HashMap<>();
         map.put(0,1);
         int count = 0;
-        for (int j : arr) {
-            xor = xor ^ j;
+        for (int i : arr) {
+            xor = xor ^ i;
             int x = xor ^ k;
             if (map.containsKey(x)) {
                 count = count + map.get(x);
