@@ -36,7 +36,7 @@ Explanation: Floor of 7 is 6 and ceil of 7 is 8.
 
  */
 
-class Solutions {
+class Gfg {
     public int[] getFloorAndCeil(int x, int[] arr) {
 
         Arrays.sort(arr);
