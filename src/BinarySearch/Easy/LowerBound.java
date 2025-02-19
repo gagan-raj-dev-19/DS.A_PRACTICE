@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.Easy;
 // bruteforce
 class LowerBoundBrute {
     public static int lowerBound(int[] arr, int k){

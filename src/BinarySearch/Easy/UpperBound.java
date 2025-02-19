@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.Easy;
 import java.util.*;
 
 class Solution {

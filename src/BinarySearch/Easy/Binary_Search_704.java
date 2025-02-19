@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.Easy;
 // iterative approach
 class Iterative {
     public int search(int[] nums, int target) {
