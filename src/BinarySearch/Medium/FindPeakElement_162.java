@@ -70,8 +70,4 @@ We use binary search to efficiently locate a peak element. The key observations 
 - The binary search efficiently narrows down the search space.
 - Works well for both small and large arrays.
 
-
-
-
-
  */
