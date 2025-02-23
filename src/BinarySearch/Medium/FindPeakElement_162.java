@@ -6,7 +6,7 @@ public class FindPeakElement_162 {
         int left = 0, right = n - 1;
 
         while (left < right) {
-            int mid = left + (right - left) / 2; // Avoid overflow
+            int mid = left + (right - left) / 2; // Avoid overflowing
 
             // If mid is greater than mid+1, move left (potential peak found)
             if (nums[mid] > nums[mid + 1]) {
