@@ -14,7 +14,7 @@ class LinearSearch{
 
     public static void main(String[] args) {
         int [] arr = {1,3,5,7,9,11};
-        int target = 7;
+        int target = 9
         int result = search(arr,target);
         System.out.println(result);
     }
