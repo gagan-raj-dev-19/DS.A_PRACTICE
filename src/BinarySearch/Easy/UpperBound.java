@@ -1,65 +1,59 @@
 package BinarySearch.Easy;
 import java.util.*;
 
-class Solution {
-    public static int upperBound(int []arr, int x, int n){
-
-        int left = 0;
-        int right=n;
-        while(left<right){
-            int mid = left+(right-left)/2;
-            if(arr[mid]>x){
-                right=mid;
-            }else{
-                left=mid+1;
-            }
+// Brute Force: Upper Bound (O(N))
+ class UpperBoundBrute {
+    public static int upperBound(int[] arr, int x) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > x) return i; // First occurrence where arr[i] > x
         }
-        return left;
+        return arr.length; // If no element is greater than x
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 4, 4, 6, 8, 10};
+        int x = 4;
+        System.out.println("Upper Bound Index (Brute): " + upperBound(arr, x)); // Output: 4
+    }
+}
+
+
+// Optimal: Upper Bound (O(log N))
+class UpperBoundOptimal {
+    public static int upperBound(int[] arr, int x) {
+        int low = 0, high = arr.length;
+
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+
+            if (arr[mid] > x) high = mid; // Move left
+            else low = mid + 1; // Move right
+        }
+        return low; // First index where arr[index] > x
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 4, 4, 6, 8, 10};
+        int x = 4;
+        System.out.println("Upper Bound Index (Optimal): " + upperBound(arr, x)); // Output: 4
     }
 }
 
 /*
-Ceil The Floor
 
-Given an unsorted array arr[] of integers and an integer x, find the floor and ceiling of x in arr[].
+ Complexity Analysis:
+Brute Force:**
+  Time Complexity:** (O(N)) (linear scan)
+  Space Complexity:** (O(1)) (constant extra space)
 
-Floor of x is the largest element which is smaller than or equal to x. Floor of x doesn’t exist if x is smaller than smallest element of arr[].
-Ceil of x is the smallest element which is greater than or equal to x. Ceil of x doesn’t exist if x is greater than greatest element of arr[].
+Binary Search Approach:**
+  Time Complexity:** (O(log N)) (binary search)
+  Space Complexity:** (O(1)) (no extra space used)
 
-Return an array of integers denoting the [floor, ceil]. Return -1 for floor or ceiling if the floor or ceiling is not present.
-
-Examples:
-
-Input: x = 7 , arr[] = [5, 6, 8, 9, 6, 5, 5, 6]
-Output: 6, 8
-Explanation: Floor of 7 is 6 and ceil of 7 is 8.
+ Edge Cases to Consider:
+✔ `x` is smaller than all elements (should return 0).
+✔ `x` is larger than all elements (should return `arr.length`).
+✔ All elements are equal to `x` (should return `arr.length`).
+✔ Empty array (should return 0).
 
  */
-
-class Gfg {
-    public int[] getFloorAndCeil(int x, int[] arr) {
-
-        Arrays.sort(arr);
-
-        int floor = -1, ceil = -1;
-        int left = 0, right = arr.length - 1;
-
-        // Finding floor
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (arr[mid] == x) {
-                floor = arr[mid];
-                ceil = arr[mid];
-                break;
-            } else if (arr[mid] < x) {
-                floor = arr[mid];
-                left = mid + 1;
-            } else {
-                ceil = arr[mid];
-                right = mid - 1;
-            }
-        }
-
-        return new int[]{floor, ceil};
-    }
-}
