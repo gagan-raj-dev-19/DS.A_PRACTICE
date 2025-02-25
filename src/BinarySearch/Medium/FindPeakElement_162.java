@@ -24,7 +24,7 @@ public class FindPeakElement_162 {
         System.out.println("Peak found at index: " + findPeakElement(nums));
     }
 }
-
+// another
 /*
  Problem Statement:
 You are given an array `nums` where:
