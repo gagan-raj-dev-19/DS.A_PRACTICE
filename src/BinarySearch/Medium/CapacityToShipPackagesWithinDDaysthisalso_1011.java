@@ -72,7 +72,7 @@ class ShipWithinDaysOptimal {
     }
 }
 /*
- * Capacity to Ship Packages Within D Days
+ * Capacity to Ship Packages Within D Days.
  *
  * Problem Statement:
  * Given an array `weights` representing package weights and an integer `D` (days),
