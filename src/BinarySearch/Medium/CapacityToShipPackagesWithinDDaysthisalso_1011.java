@@ -73,33 +73,33 @@ class ShipWithinDaysOptimal {
 }
 /*
  * Capacity to Ship Packages Within D Days.
- *
+
  * Problem Statement:
  * Given an array `weights` representing package weights and an integer `D` (days),
  * find the minimum ship capacity required to deliver all packages within `D` days.
  * The ship must take packages in the given order and can only ship once per day.
- *
+
  * Approaches:
- *
+
  * 1. Linear Search (Brute Force) – O(N * Sum(weights))
  *    - Compute `maxWeight` (heaviest package) and `sumWeight` (total weight).
  *    - Try all capacities from `maxWeight` to `sumWeight`.
  *    - Use a helper function `canShip(weights, cap, D)` to check feasibility.
  *    - Inefficient for large weight arrays.
- *
+
  * 2. Binary Search (Optimal) – O(N log Sum(weights))
  *    - Perform binary search in the range `[maxWeight, sumWeight]`.
  *    - Compute `mid` and check if it's a valid ship capacity.
  *    - If `mid` can ship in `D` days, reduce capacity (`right = mid`).
  *    - Otherwise, increase capacity (`left = mid + 1`).
- *
+
  * Complexity Analysis:
- *
+
  * | Approach                   | Time Complexity       | Space Complexity |
  * |----------------------------|---------------------|----------------|
  * | Linear Search (Brute)      | O(N * Sum(weights)) | O(1)          |
  * | Binary Search (Optimal)    | O(N log Sum(weights)) | O(1)          |
- *
+
  * Conclusion:
  * - **Binary Search** efficiently finds the minimum ship capacity.
  * - **Much faster than brute force, especially for large input sizes.**
