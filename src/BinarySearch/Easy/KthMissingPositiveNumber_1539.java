@@ -56,7 +56,7 @@ class Optimised {
     }
 }
 
-/**
+/*
 
  * Problem Statement:
  * Given a sorted array 'arr' of positive integers in strictly increasing order and an integer 'k',
