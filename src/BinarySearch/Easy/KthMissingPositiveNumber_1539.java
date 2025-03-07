@@ -61,7 +61,7 @@ class Optimised {
  * Problem Statement:
  * Given a sorted array 'arr' of positive integers in strictly increasing order and an integer 'k',
  * return the k-th missing positive integer.
- *
+
  * Example:
  * Input: arr = [2, 3, 4, 7, 11], k = 5
  * Output: 9
@@ -72,15 +72,15 @@ class Optimised {
  * - Iterate from 1 upward and check if each number is in 'arr'.
  * - Keep track of the count of missing numbers.
  * - Stop when we reach the k-th missing number.
- *
+
  * Time Complexity: O(N) (Iterate until we find the k-th missing number)
  * Space Complexity: O(1) (No extra space used)
- *
+
  * Approach 2: Binary Search (O(log N))
  * - Calculate the missing count before each element.
  * - Use binary search to find the position where missing numbers become >= k.
  * - The answer is (k + low).
- *
+
  * Time Complexity: O(log N) (Binary search reduces search space)
  * Space Complexity: O(1) (Only variables used)
  */
