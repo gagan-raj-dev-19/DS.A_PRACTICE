@@ -79,7 +79,7 @@ class Optimised {
  * Approach 2: Binary Search (O(log N))
  * - Calculate the missing count before each element.
  * - Use binary search to find the position where missing numbers become >= k.
- * - The answer is (k + low).
+ * - The answer is (k + left).
 
  * Time Complexity: O(log N) (Binary search reduces search space)
  * Space Complexity: O(1) (Only variables used)
