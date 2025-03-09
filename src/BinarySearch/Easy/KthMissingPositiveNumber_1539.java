@@ -63,7 +63,7 @@ class Optimised {
  * return the k-th missing positive integer.
 
  * Example:
- * Input: arr = [2, 3, 4, 7, 11], k = 5
+ * Input: arr = [2, 3, 4, 7, 11], k = 5.
  * Output: 9
  * Explanation: The missing numbers are [1, 5, 6, 8, 9, 10, 12, ...].
  * The 5th missing number is 9.
