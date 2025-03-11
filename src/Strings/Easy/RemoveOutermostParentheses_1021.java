@@ -68,24 +68,24 @@ class Optimised {
 
 Let's break this problem down step by step with all the requested details.
 
-## **Problem Statement**
+ **Problem Statement**
 Given a valid parentheses string `s`, remove its outermost parentheses and return the modified string.
 
-### **Example**
-#### **Input:**
+ **Example**
+**Input:**
 `s = "(()())(())"`
-#### **Output:**
+**Output:**
 `"()()()"`
 
-#### **Input:**
+**Input:**
 `s = "(()())(())(()(()))"`
-#### **Output:**
+**Output:**
 `"()()()()(())"`
 
----
 
-## **Approach 1: Brute Force (O(N))**
-### **Explanation:**
+
+ **Approach 1: Brute Force (O(N))**
+ **Explanation:**
 1. A valid parentheses string consists of multiple primitive components.
 2. We need to remove the first and last parentheses of each primitive component.
 3. Use a **counter** (`count`) to track open `(` and close `)`.
@@ -93,10 +93,10 @@ Given a valid parentheses string `s`, remove its outermost parentheses and retur
 
 
 
-## **Approach 2: Optimal Approach (O(log N)) using Stack**
+ **Approach 2: Optimal Approach (O(log N)) using Stack**
 We can optimize the approach using a **Stack** to track parentheses pairs instead of manually counting them.
 
-### **Explanation**
+ **Explanation**
 1. Use a **Stack** to manage opening and closing brackets.
 2. Only push and pop when necessary.
 3. Ignore the first `(` and last `)` of every primitive sequence.
@@ -109,7 +109,7 @@ Since `log(N)` is incorrect for this problem, the actual optimal time complexity
 
 ---
 
-## **Dry Run (Step-by-Step Execution)**
+ **Dry Run (Step-by-Step Execution)**
 Let's dry-run the brute force approach with input `"(()())(())"`.
 
 | Step | Char | `count` | `result` | Reason |
@@ -127,18 +127,18 @@ Let's dry-run the brute force approach with input `"(()())(())"`.
 
 Final Output: `"()()()"`
 
----
 
-## **Time & Space Complexity Analysis**
+
+ **Time & Space Complexity Analysis**
 | Approach | Time Complexity | Space Complexity |
 |----------|---------------|----------------|
 | Brute Force | `O(N)` | `O(N)` (StringBuilder) |
 | Stack-Based | `O(N)` | `O(N)` (Stack storage) |
 
----
 
-## **Visual Explanation**
-### **Original Input:** `"(()())(())(()(()))"`
+
+ **Visual Explanation**
+ **Original Input:** `"(()())(())(()(()))"`
 ```
 Step 1: Primitive:  (()()) → remove outer:  ()()
 Step 2: Primitive:  (()) → remove outer:  ()
@@ -148,7 +148,7 @@ Final output:  "()()()()(())"
 
 ---
 
-## **Conclusion**
+ **Conclusion**
 1. **Brute Force (O(N)):** Simple counting approach using a `count` variable.
 2. **Stack-Based (O(N)):** Uses a stack but doesn't improve time complexity.
 3. **Best Approach:** The brute force approach using a counter is the most efficient.
