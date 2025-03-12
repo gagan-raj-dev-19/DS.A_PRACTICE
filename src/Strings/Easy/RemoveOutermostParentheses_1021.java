@@ -146,7 +146,7 @@ Step 3: Primitive:  (()(())) → remove outer:  ()(())
 Final output:  "()()()()(())"
 ```
 
----
+
 
  **Conclusion**
 1. **Brute Force (O(N)):** Simple counting approach using a `count` variable.
