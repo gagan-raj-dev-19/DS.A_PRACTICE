@@ -107,7 +107,7 @@ We can optimize the approach using a **Stack** to track parentheses pairs instea
 
 Since `log(N)` is incorrect for this problem, the actual optimal time complexity is still `O(N)`. The stack-based approach does not improve beyond `O(N)`, but it offers better clarity in certain cases.
 
----
+
 
  **Dry Run (Step-by-Step Execution)**
 Let's dry-run the brute force approach with input `"(()())(())"`.
@@ -139,12 +139,12 @@ Final Output: `"()()()"`
 
  **Visual Explanation**
  **Original Input:** `"(()())(())(()(()))"`
-```
+
 Step 1: Primitive:  (()()) → remove outer:  ()()
 Step 2: Primitive:  (()) → remove outer:  ()
 Step 3: Primitive:  (()(())) → remove outer:  ()(())
 Final output:  "()()()()(())"
-```
+
 
 
 
