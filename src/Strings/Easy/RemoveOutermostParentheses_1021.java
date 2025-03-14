@@ -109,7 +109,7 @@ Since `log(N)` is incorrect for this problem, the actual optimal time complexity
 
 
 
- **Dry Run (Step-by-Step Execution)**
+ Dry Run (Step-by-Step Execution)
 Let's dry-run the brute force approach with input `"(()())(())"`.
 
 | Step | Char | `count` | `result` | Reason |
