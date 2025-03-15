@@ -129,7 +129,7 @@ Final Output: `"()()()"`
 
 
 
- **Time & Space Complexity Analysis**
+ Time & Space Complexity Analysis
 | Approach | Time Complexity | Space Complexity |
 |----------|---------------|----------------|
 | Brute Force | `O(N)` | `O(N)` (StringBuilder) |
