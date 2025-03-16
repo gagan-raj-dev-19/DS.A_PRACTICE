@@ -97,7 +97,7 @@ Given a valid parentheses string `s`, remove its outermost parentheses and retur
 We can optimize the approach using a **Stack** to track parentheses pairs instead of manually counting them.
 
  **Explanation**
-1. Use a **Stack** to manage opening and closing brackets.
+1. Use a Stack to manage opening and closing brackets.
 2. Only push and pop when necessary.
 3. Ignore the first `(` and last `)` of every primitive sequence.
 
