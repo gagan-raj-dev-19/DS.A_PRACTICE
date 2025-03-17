@@ -73,11 +73,11 @@ Given a valid parentheses string `s`, remove its outermost parentheses and retur
 
  **Example**
 **Input:**
-`s = "(()())(())"`
+s = "(()())(())"
 **Output:**
-`"()()()"`
+"()()()"
 
-**Input:**
+Input:
 `s = "(()())(())(()(()))"`
 **Output:**
 `"()()()()(())"`
