@@ -1,5 +1,5 @@
 package Strings.Easy;
-import java.util.Stack;
+import java.util.*;
 
 class BruteForce {
     public static String removeOutermostParentheses(String s) {
