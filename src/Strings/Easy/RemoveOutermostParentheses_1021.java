@@ -125,7 +125,7 @@ Let's dry-run the brute force approach with input `"(()())(())"`.
 | 9 | `)` | 1 | `()()()` | Append because `count > 0` |
 | 10 | `)` | 0 | `()()()` | Ignore last ')' |
 
-Final Output: `"()()()"`
+Final Output: "()()()"
 
 
 
