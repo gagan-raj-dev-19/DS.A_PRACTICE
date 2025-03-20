@@ -105,7 +105,7 @@ We can optimize the approach using a **Stack** to track parentheses pairs instea
 ✅ **Time Complexity:** `O(N)`
 ✅ **Space Complexity:** `O(N)` (Stack storage)
 
-Since `log(N)` is incorrect for this problem, the actual optimal time complexity is still `O(N)`. The stack-based approach does not improve beyond `O(N)`, but it offers better clarity in certain cases.
+Since log(N) is incorrect for this problem, the actual optimal time complexity is still `O(N)`. The stack-based approach does not improve beyond `O(N)`, but it offers better clarity in certain cases.
 
 
 
