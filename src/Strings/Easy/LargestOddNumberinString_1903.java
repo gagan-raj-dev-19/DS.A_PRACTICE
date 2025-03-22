@@ -32,8 +32,4 @@ The idea is to iterate over the string from right to left and check for the firs
 - **Time Complexity:** \( O(N) \) (In the worst case, we check all N digits)
 - **Space Complexity:** \( O(1) \) (No extra space is used)
 
-
-
-
-
  */
