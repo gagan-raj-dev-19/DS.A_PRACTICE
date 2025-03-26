@@ -40,7 +40,7 @@ class IsomorphicStrings {
     }
     }
 
- // iterating  best
+ // iterating
 
 class Iteration {
     public static boolean Isomorphic(String s, String t) {
