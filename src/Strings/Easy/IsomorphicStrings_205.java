@@ -1,7 +1,7 @@
 package Strings.Easy;
 
 import java.util.HashMap;
- //HashMap
+ //HashMap Method
 class IsomorphicStrings {
      public static boolean isIsomorphic(String s, String t){
          if (s.length() != t.length()){
