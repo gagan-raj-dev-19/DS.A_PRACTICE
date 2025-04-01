@@ -34,7 +34,7 @@ class IsomorphicStrings {
      }
 
     public static void main(String[] args) {
-        System.out.println(isIsomorphic("egg", "add"));    // true
+        System.out.println(isIsomorphic("egg", "add"));    // True
         System.out.println(isIsomorphic("foo", "bar"));    // false
         System.out.println(isIsomorphic("paper", "title"));// true
     }
