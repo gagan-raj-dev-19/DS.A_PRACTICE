@@ -41,7 +41,7 @@ class IsomorphicStrings {
     }
 
 
-
+// iteration
 class Iteration {
     public static boolean Isomorphic(String s, String t) {
         int[] idxS = new int[200];
