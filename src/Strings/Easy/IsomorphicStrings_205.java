@@ -66,6 +66,6 @@ class Iteration {
     public static void main(String[] args) {
         System.out.println(Isomorphic("egg", "add"));    // true
         System.out.println(Isomorphic("foo", "bar"));    // false
-        System.out.println(Isomorphic("paper", "title"));// true
+        System.out.println(Isomorphic("paper", "title"));//
     }
 }
