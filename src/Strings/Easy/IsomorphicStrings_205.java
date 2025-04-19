@@ -1,7 +1,7 @@
 package Strings.Easy;
 
 import java.util.HashMap;
-
+// using hashmap
 class IsomorphicStrings {
      public static boolean isIsomorphic(String s, String t){
          if (s.length() != t.length()){
@@ -41,7 +41,7 @@ class IsomorphicStrings {
     }
 
 
-
+// using iteration
 class Iteration {
     public static boolean Isomorphic(String s, String t) {
         int[] idxS = new int[200];
