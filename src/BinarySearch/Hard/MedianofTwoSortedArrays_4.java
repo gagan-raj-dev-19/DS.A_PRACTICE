@@ -1,7 +1,7 @@
 package BinarySearch.Hard;
 
 import java.util.Arrays;
-// bruteforce using merge sort
+// Brute Force Using Merge Sort
 class MedianofTwoSortedArrays {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2){
         int n = nums1.length;
