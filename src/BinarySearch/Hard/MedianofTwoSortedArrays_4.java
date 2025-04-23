@@ -34,3 +34,5 @@ class MedianofTwoSortedArrays {
         System.out.println(findMedianSortedArrays(nums1,nums2)); // 2.5
     }
 }
+
+//using binary search // pending
