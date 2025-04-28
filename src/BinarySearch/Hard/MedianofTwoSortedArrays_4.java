@@ -35,5 +35,5 @@ class MedianofTwoSortedArrays {
     }
 }
 
-//Using binary Search // pending
+//Using binary Search
 
