@@ -31,8 +31,5 @@ class MedianofTwoSortedArrays {
     public static void main(String[] args) {
         int[] nums1 = {1,2};
         int[] nums2 = {3,4};
-        System.out.println(findMedianSortedArrays(nums1,nums2));
-    }
-}
-
-// pending
+        System.out.println(findMedianSortedArrays(nums1,nums2
+//
