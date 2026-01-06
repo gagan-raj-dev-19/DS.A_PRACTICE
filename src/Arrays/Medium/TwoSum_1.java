@@ -2,27 +2,27 @@ package Arrays.Medium;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class TwoSum_1 {
-    // Function to find two indices such that their values add up to the target
-    public static int[] twoSum(int[] nums, int target) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i]; // Calculate complement
-            if (map.containsKey(complement)) { // Check if complement exists
-                return new int[]{map.get(complement), i}; // Return indices
-            }
-            map.put(nums[i], i); // Add current number to hash map
-        }
-        return new int[]{}; // Return empty array if no solution exists
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {1, 4, 4, 8};
-        int target = 8;
-        int[] res = twoSum(nums, target);
-        System.out.println(Arrays.toString(res)); // Output the result
-    }
-}
+//public class TwoSum_1 {
+//    // Function to find two indices such that their values add up to the target
+//    public static int[] twoSum(int[] nums, int target) {
+//        HashMap<Integer, Integer> map = new HashMap<>();
+//        for (int i = 0; i < nums.length; i++) {
+//            int complement = target - nums[i]; // Calculate complement
+//            if (map.containsKey(complement)) { // Check if complement exists
+//                return new int[]{map.get(complement), i}; // Return indices
+//            }
+//            map.put(nums[i], i); // Add current number to hash map
+//        }
+//        return new int[]{}; // Return empty array if no solution exists
+//    }
+//
+//    public static void main(String[] args) {
+//        int[] nums = {1, 4, 4, 8};
+//        int target = 8;
+//        int[] res = twoSum(nums, target);
+//        System.out.println(Arrays.toString(res)); // Output the result
+//    }
+//}
 
 
 /*
@@ -62,3 +62,24 @@ This approach avoids using a nested loop and ensures an efficient solution.
 
 
  */
+
+
+//public class TwoSum_1 {
+//    public static int[] twoSum(int[] nums, int target){
+//        for (int i = 0; i < nums.length; i++) {
+//            for (int j = i+1;j< nums.length;j++){
+//                if(nums[i]+nums[j] == target){
+//                    return new int[]{i,j};
+//                }
+//            }
+//        }
+//        return new int[]{};
+//    }
+//
+//    public static void main(String[] args) {
+//        int[] nums = {2, 7, 11, 15};
+//        int target = 9;
+//        int[] res = twoSum(nums,target);
+//        System.out.println(Arrays.toString(res));
+//    }
+//}
