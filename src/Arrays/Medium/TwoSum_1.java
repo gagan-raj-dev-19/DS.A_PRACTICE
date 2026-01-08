@@ -2,27 +2,27 @@ package Arrays.Medium;
 import java.util.Arrays;
 import java.util.HashMap;
 
-//public class TwoSum_1 {
-//    // Function to find two indices such that their values add up to the target
-//    public static int[] twoSum(int[] nums, int target) {
-//        HashMap<Integer, Integer> map = new HashMap<>();
-//        for (int i = 0; i < nums.length; i++) {
-//            int complement = target - nums[i]; // Calculate complement
-//            if (map.containsKey(complement)) { // Check if complement exists
-//                return new int[]{map.get(complement), i}; // Return indices
-//            }
-//            map.put(nums[i], i); // Add current number to hash map
-//        }
-//        return new int[]{}; // Return empty array if no solution exists
-//    }
-//
-//    public static void main(String[] args) {
-//        int[] nums = {1, 4, 4, 8};
-//        int target = 8;
-//        int[] res = twoSum(nums, target);
-//        System.out.println(Arrays.toString(res)); // Output the result
-//    }
-//}
+public class TwoSum_1 {
+    // Function to find two indices such that their values add up to the target
+    public static int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> seen = new HashMap<>();
+        for(int i = 0; i< nums.length;i++){
+            int needed = target-nums[i];
+            if(seen.containsKey(needed)){
+                return new int[] {seen.get(needed),i};
+            }
+           seen.put(nums[i],i);
+        }
+        return new int[] {}; // 1,2.
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1, 4, 4, 8};
+        int target = 8;
+        int[] res = twoSum(nums, target);
+        System.out.println(Arrays.toString(res)); // Output the result
+    }
+}
 
 
 /*
@@ -83,3 +83,5 @@ This approach avoids using a nested loop and ensures an efficient solution.
 //        System.out.println(Arrays.toString(res));
 //    }
 //}
+
+
