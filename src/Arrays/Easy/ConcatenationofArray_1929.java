@@ -44,7 +44,7 @@ Complexity Analysis:
    - A new array `result` of size \(2n\) is created.
    - Space complexity: \(O(2n)\), which simplifies to \(O(n)\) as constants are ignored in asymptotic analysis.
 
----
+
 
 This solution efficiently handles the concatenation problem with linear complexity in both time and space. Additional optimizations could be explored for specific use cases or constraints.
 
