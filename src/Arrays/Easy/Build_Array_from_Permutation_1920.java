@@ -17,3 +17,4 @@ public class Build_Array_from_Permutation_1920 {
         System.out.println(Arrays.toString(buildArray(nums)));
     }
 }
+//
