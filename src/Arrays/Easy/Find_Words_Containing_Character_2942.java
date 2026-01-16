@@ -45,11 +45,11 @@ You are tasked to write a function that takes an array of words (strings) and a 
  Complexity Analysis:
 
 1. Time Complexity:
-   - Each `indexOf(char)` call runs in **O(L)**, where `L` is the length of the current string.
-   - Iterating through the array of `N` strings, the overall complexity is **O(N * L)**, where `L` is the average length of strings in the array.
+   - Each `indexOf(char)` call runs in O(L), where `L` is the length of the current string.
+   - Iterating through the array of `N` strings, the overall complexity is O(N * L), where `L` is the average length of strings in the array.
 
 2. Space Complexity:
-   - **O(N)**: Space for storing indices in the result list.
+   - O(N): Space for storing indices in the result list.
    - Additional space is negligible as it only depends on primitive operations.
 
 
