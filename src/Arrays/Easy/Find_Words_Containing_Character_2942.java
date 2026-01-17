@@ -18,7 +18,7 @@ class FindWordsContainingCharacter {
         String[] words= {"iron","man"} ;
        // String[] words1 = {"itachi","uchiha"};
         char x1  = 'n';
-        char x2 = 'z';
+       // char x2 = 'z';
         System.out.println(findWordsContaining(words,x1));
       //  System.out.println(findWordsContaining(words1,x2));
     }
