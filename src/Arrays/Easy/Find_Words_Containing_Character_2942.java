@@ -16,11 +16,11 @@ class FindWordsContainingCharacter {
 
     public static void main(String[] args) {
         String[] words= {"iron","man"} ;
-        String[] words1 = {"itachi","uchiha"};
+       // String[] words1 = {"itachi","uchiha"};
         char x1  = 'n';
         char x2 = 'z';
         System.out.println(findWordsContaining(words,x1));
-        System.out.println(findWordsContaining(words1,x2));
+      //  System.out.println(findWordsContaining(words1,x2));
     }
 }
 
