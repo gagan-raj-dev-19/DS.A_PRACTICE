@@ -6,17 +6,17 @@ import java.util.List;
 class Solution {
     public int countPairs(List<Integer> nums, int target) {
         Collections.sort(nums);
-        int cnt = 0;
+        int count = 0;
         int left = 0;
         int right = nums.size()-1;
         while(left<right){
             if(nums.get(left) + nums.get(right) < target){
-                cnt += right-left;
+                count += right-left;
                 left++;
             }else{
                 right--;
             }
         }
-        return cnt;
+        return count;
     }
 }
